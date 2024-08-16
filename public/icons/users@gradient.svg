@@ -1,0 +1,63 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Capa_1" clip-path="url(#clip0_1861_74965)">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" d="M20.5358 12.812H18.6797C18.8689 13.33 18.9722 13.889 18.9722 14.4716V21.4864C18.9722 21.7293 18.93 21.9625 18.853 22.1793H21.9215C23.0678 22.1793 24.0002 21.2468 24.0002 20.1006V16.2765C24.0003 14.3662 22.4461 12.812 20.5358 12.812Z" fill="url(#paint0_linear_1861_74965)"/>
+</g>
+</g>
+<g id="Group_3">
+<g id="Group_4">
+<path id="Vector_2" d="M5.02806 14.4715C5.02806 13.8889 5.13142 13.3299 5.3206 12.812H3.46454C1.55419 12.812 0 14.3661 0 16.2765V20.1006C0 21.2468 0.932486 22.1793 2.07872 22.1793H5.14726C5.07034 21.9624 5.02806 21.7293 5.02806 21.4864V14.4715Z" fill="url(#paint1_linear_1861_74965)"/>
+</g>
+</g>
+<g id="Group_5">
+<g id="Group_6">
+<path id="Vector_3" d="M14.1218 11.007H9.8786C7.96825 11.007 6.41406 12.5611 6.41406 14.4715V21.4864C6.41406 21.869 6.72428 22.1793 7.10697 22.1793H16.8935C17.2761 22.1793 17.5864 21.869 17.5864 21.4864V14.4715C17.5864 12.5611 16.0322 11.007 14.1218 11.007Z" fill="url(#paint2_linear_1861_74965)"/>
+</g>
+</g>
+<g id="Group_7">
+<g id="Group_8">
+<path id="Vector_4" d="M12.0025 1.82056C9.70503 1.82056 7.83594 3.68965 7.83594 5.98714C7.83594 7.5455 8.69605 8.90652 9.96627 9.62109C10.5688 9.95999 11.2634 10.1537 12.0025 10.1537C12.7416 10.1537 13.4362 9.95999 14.0387 9.62109C15.309 8.90652 16.169 7.54546 16.169 5.98714C16.169 3.6897 14.2999 1.82056 12.0025 1.82056Z" fill="url(#paint3_linear_1861_74965)"/>
+</g>
+</g>
+<g id="Group_9">
+<g id="Group_10">
+<path id="Vector_5" d="M4.68633 5.7041C2.96813 5.7041 1.57031 7.10192 1.57031 8.82012C1.57031 10.5383 2.96813 11.9361 4.68633 11.9361C5.12218 11.9361 5.53721 11.8459 5.91423 11.6836C6.56607 11.4029 7.10354 10.9062 7.43612 10.2839C7.66956 9.84716 7.80236 9.34892 7.80236 8.82012C7.80236 7.10196 6.40454 5.7041 4.68633 5.7041Z" fill="url(#paint4_linear_1861_74965)"/>
+</g>
+</g>
+<g id="Group_11">
+<g id="Group_12">
+<path id="Vector_6" d="M19.3191 5.7041C17.6009 5.7041 16.2031 7.10192 16.2031 8.82012C16.2031 9.34897 16.3359 9.8472 16.5694 10.2839C16.9019 10.9062 17.4394 11.403 18.0913 11.6836C18.4683 11.8459 18.8833 11.9361 19.3191 11.9361C21.0374 11.9361 22.4352 10.5383 22.4352 8.82012C22.4352 7.10192 21.0374 5.7041 19.3191 5.7041Z" fill="url(#paint5_linear_1861_74965)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1861_74965" x1="18.6797" y1="12.812" x2="24.2817" y2="12.9834" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5B58F5"/>
+<stop offset="1" stop-color="#0F77FF"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1861_74965" x1="0" y1="12.812" x2="5.60202" y2="12.9834" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5B58F5"/>
+<stop offset="1" stop-color="#0F77FF"/>
+</linearGradient>
+<linearGradient id="paint2_linear_1861_74965" x1="6.41406" y1="11.007" x2="18.1542" y2="11.6395" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5B58F5"/>
+<stop offset="1" stop-color="#0F77FF"/>
+</linearGradient>
+<linearGradient id="paint3_linear_1861_74965" x1="7.83594" y1="1.82056" x2="16.5926" y2="2.29234" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5B58F5"/>
+<stop offset="1" stop-color="#0F77FF"/>
+</linearGradient>
+<linearGradient id="paint4_linear_1861_74965" x1="1.57031" y1="5.7041" x2="8.11912" y2="6.05694" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5B58F5"/>
+<stop offset="1" stop-color="#0F77FF"/>
+</linearGradient>
+<linearGradient id="paint5_linear_1861_74965" x1="16.2031" y1="5.7041" x2="22.7519" y2="6.05694" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5B58F5"/>
+<stop offset="1" stop-color="#0F77FF"/>
+</linearGradient>
+<clipPath id="clip0_1861_74965">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
