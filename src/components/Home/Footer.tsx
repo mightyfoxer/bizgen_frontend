@@ -14,12 +14,12 @@ const Footer: FC = () => {
               Join our newsletter to stay up to date on features and releases.
             </p>
             <div className="flex items-center gap-2 lg:gap-4">
-              <input
+              {/* <input
                 className="w-[358px] h-9 lg:h-12 border border-primary-700 p-3 rounded-md lg:rounded-lg font-jakarta text-sm lg:text-md"
                 placeholder="Enter your email"
-              />
+              /> */}
               <button className="py-2 lg:py-3 px-6 bg-primary-300 text-white rounded-md lg:rounded-lg font-jakarta text-sm lg:text-md leading-sm lg:leading-md">
-                Subscribe
+                Join Newsletter
               </button>
             </div>
             <p className="font-jakarta text-xs leading-xs mt-4 max-w-[500px]">
@@ -33,7 +33,7 @@ const Footer: FC = () => {
             </p>
           </div>
           <div className="flex flex-wrap justify-between gap-[20px] mt-8 lg:mt-0 text-primary-100">
-            <div className="w-[calc(100%/2-40px)] md:w-[calc(100%/3-14px)]">
+            {/* <div className="w-[calc(100%/2-40px)] md:w-[calc(100%/3-14px)]">
               <div className="font-jakarta font-semibold text-sm leading-sm">
                 Column One
               </div>
@@ -46,8 +46,8 @@ const Footer: FC = () => {
                   </li>
                 ))}
               </ul>
-            </div>
-            <div className="w-[calc(100%/2-40px)] md:w-[calc(100%/3-14px)]">
+            </div> */}
+            {/* <div className="w-[calc(100%/2-40px)] md:w-[calc(100%/3-14px)]">
               <div className="font-jakarta font-semibold text-sm leading-sm">
                 Column One
               </div>
@@ -60,7 +60,7 @@ const Footer: FC = () => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
             <div className="w-[calc(100%/2-40px)] md:w-[calc(100%/3-14px)]">
               <div className="font-jakarta font-semibold text-sm leading-sm">
                 Follow Us
@@ -109,7 +109,7 @@ const Footer: FC = () => {
         <div className="mt-0 lg:mt-20 border-t border-black">
           <div className="mt-4 lg:mt-8 flex flex-col-reverse lg:flex-row items-center justify-between">
             <div className="font-jakarta text-xs lg:text-sm leading-xs lg:leading-sm">
-              © 2023 Bizgen. All rights reserved.
+              © 2024 Bizgen. All rights reserved.
             </div>
             <ul className="flex gap-2 lg:gap-6 mb-4 lg:mb-0">
               <li>
@@ -122,11 +122,11 @@ const Footer: FC = () => {
                   Terms of Service
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link className="underline font-jakarta text-xs leading-xs lg:text-sm lg:leading-sm" href="#">
                   Cookies Settings
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

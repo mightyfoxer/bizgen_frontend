@@ -13,8 +13,8 @@ const SimplifiedStepProcess: FC = () => {
         </span>
       </h2>
       <p className="text-sm md:text-md lg:text-l leading-sm md:leading-md lg:leading-l mt-4 lg:mt-6 max-w-[555px] mx-auto text-center font-jakarta px-5 text-primary-100">
-        Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-        libero et velit interdum, ac aliquet odio mattis.
+        An easy way to make continuous content for your brand using
+        our simply 5 step process.
       </p>
       <div className="flex flex-row-reverse md:flex-col justify-center">
         <div className="flex flex-col md:flex-row items-center justify-center gap-[60px] md:gap-[80px] xl:gap-[128px] mt-20 mx-6">
@@ -44,12 +44,12 @@ const SimplifiedStepProcess: FC = () => {
             number={4}
             title={
               <>
-                Content Generator
+                Schedule Your
                 <br />
-                Marketplace
+                Content
               </>
             }
-            icon="/icons/s-content.svg"
+            icon="/icons/s-generate.svg"
             tail={
               <div
                 className="absolute w-10 xl:w-[48px] -left-10 md:left-auto right-auto md:right-10 lg:-right-10 xl:-right-[50px] top-[64px] sm:top-12 md:top-[66px] rotate-90 md:rotate-0"
@@ -92,12 +92,12 @@ const SimplifiedStepProcess: FC = () => {
             number={3}
             title={
               <>
-                Generate Sales
+                Content Generator
                 <br />
-                Funnels
+                Marketplace
               </>
             }
-            icon="/icons/s-generate.svg"
+            icon="/icons/s-content.svg"
             tail={
               <div
                 className="absolute w-20 xl:w-[89px] -right-[60px] sm:-right-8 lg:-right-10 xl:-right-[60px] top-4 md:-top-[160px] rotate-90 md:rotate-0"

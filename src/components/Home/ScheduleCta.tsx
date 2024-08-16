@@ -26,8 +26,8 @@ const ScheduleCta = () => {
           Schedule a live demo
         </h2>
         <p className="text-sm md:text-md lg:text-l leading-sm md:leading-md lg:leading-l relative z-10 text-black max-w-[605px] mx-auto text-center font-jakarta">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique.
+          Want to learn more about Bizgen and our enterprise package? Then
+          book in a walkthrough demo with us!
         </p>
         <div className="relative z-10 flex items-center justify-center mt-8">
           <button className="rounded-lg w-full h-10 relative overflow-hidden px-6">

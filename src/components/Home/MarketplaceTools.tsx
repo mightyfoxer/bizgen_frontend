@@ -9,8 +9,9 @@ const MarketplaceTools = () => {
         Marketplace of tools
       </h2>
       <p className="text-black text-sm md:text-md lg:text-l leading-sm md:leading-md lg:leading-l max-w-[555px] mx-auto text-center font-jakarta">
-        Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-        libero et velit interdum, ac aliquet odio mattis. <br />
+        Tons of tools in your marketplace upon launch with a heavy <br />
+        roadmap of new utilities and innovative tools to be added in the <br />
+        coming months!.
       </p>
       <div className="w-full xl:w-[1180px] mx-auto mt-5 lg:mt-9 pt-9">
         <div className="flex flex-wrap w-[calc(100%-40px)] gap-5 mx-5">
@@ -42,7 +43,7 @@ export default MarketplaceTools;
 
 const list = [
   {
-    title: ["Businesess", "Ideation"],
+    title: ["Business", "Ideation"],
     icon: "/icons/business.svg",
   },
   {
@@ -66,11 +67,11 @@ const list = [
     icon: "/icons/product.svg",
   },
   {
-    title: ["Email", "Scription"],
+    title: ["Email", "Scripting"],
     icon: "/icons/mail.svg",
   },
   {
-    title: ["Ad Script", "Generation"],
+    title: ["Social Content", "Generator"],
     icon: "/icons/megaphone.svg",
   },
   {
@@ -78,7 +79,7 @@ const list = [
     icon: "/icons/automation.svg",
   },
   {
-    title: ["Social Media", "Strategy planning"],
+    title: ["Social Media", "Scheduler"],
     icon: "/icons/social.svg",
   },
   {
@@ -86,7 +87,7 @@ const list = [
     icon: "/icons/scripting.svg",
   },
   {
-    title: ["AI VA", "Assistang"],
+    title: ["AI VA", "Assistant"],
     icon: "/icons/ai-va.svg",
   },
 ];

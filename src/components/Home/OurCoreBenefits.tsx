@@ -8,8 +8,8 @@ const OurCoreBenefits: FC = () => {
         Our Core Benefits
       </h2>
       <p className="text-sm md:text-md lg:text-l leading-sm md:leading-md lg:leading-l font-jakarta text-center max-w-[555px] mx-auto mt-4 lg:mt-6 text-primary-100">
-        Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-        libero et velit interdum, ac aliquet odio mattis.
+        A combination of leveraging the latest Ai technology, and years of
+        real world experience creating an easy to use process.
       </p>
       <div className="flex flex-wrap gap-3 justify-center items-center mt-[60px]">
         <Item
@@ -24,13 +24,12 @@ const OurCoreBenefits: FC = () => {
         />
         <Item
           title="Automation = Time Saved"
-          description="Leveraging AI agents to create a power house of automation to streamline and work for you 24/7 for optimal results."
+          description="Creating your content and scheduling it out saves hours of time that can be used focusing on growing your business."
           image="/images/c-time.png"
         />
         <Item
           title="Start profiting right away!"
-          description="Сервис работает в полностью автоматическом режиме - вы просто и легко изучаете систематизиро- ванную информацию
-          "
+          description="It's like having an entire agency all in one place working for you to grow your online presence"
           image="/images/c-chart.png"
         />
       </div>

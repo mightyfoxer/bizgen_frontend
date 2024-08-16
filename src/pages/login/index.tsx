@@ -88,12 +88,12 @@ export default function index() {
                   Sign Up
                 </Link>
               </div>
-              <Link
+              {/* <Link
                 className="text-primary-300 font-semibold text-sm md:text-l xl:text-xl leading-l xl:leading-xl font-jakarta underline"
                 href="/forgot-password"
               >
                 Forgot Password?
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
@@ -135,8 +135,8 @@ export default function index() {
             <Image src="/images/bizzy-whole-body.svg" layout="fill" alt="" />
           </div>
           <p className="font-aeonik text-md leading-md font-medium max-w-[663px] text-center mt-9 text-[#7270FF]">
-            Morem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis.
+            Bizzy is ready to help you create a complete end to end business and
+            marketing campaign in just a few minutes!
           </p>
         </div>
       </div>

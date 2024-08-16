@@ -30,7 +30,7 @@ export default function index() {
               Let{"'"}s get you set up
             </h1>
             <p className="font-jakarta font-semibold text-sm md:text-md lg:text-xl leading-md lg:leading-xl text-primary-700 mt-3">
-              If your team is already using Casual, sign in here.
+              Fill in the information below and get started away!
             </p>
             <div className="grid grid-cols-2 gap-4 md:gap-10 lg:gap-[50px]">
               <div className="mt-6 flex flex-col gap-1">
@@ -91,6 +91,10 @@ export default function index() {
             <button className="bg-primary-300 rounded-lg w-full py-3 lg:py-[18px] text-md lg:text-h6 leading-md lg:leading-h6 font-aeonik font-bold mt-5 text-white">
               Get Started Free
             </button>
+            <div className="flex flex-row justify-between items-center mt-[10px]">
+              <a href = "#" className="text-[#104aff]">Term & Condition</a>
+              <a href="#" className="text-[#104aff]">Privacy Policy</a>
+            </div>
             <div className="relative border-t border-primary-700 w-full mt-10">
               <div className="absolute left-1/2 -top-3 md:-top-5 -translate-x-1/2 text-sm md:text-h6 text-primary-700 px-6 bg-white">
                 or
@@ -104,17 +108,17 @@ export default function index() {
                 }}
               >
                 <Image src="/icons/google.png" width={24} height={24} alt="" />
-                Sign in with Google
+                Sign up with Google
               </button>
             </div>
             <div className="flex justify-between items-center mt-10 flex-col gap-2 lg:flex-row pb-10">
               <div className="flex items-center gap-3 text-sm md:text-l xl:text-xl leading-l xl:leading-xl font-jakarta">
-                Dont{"'"}t have an account?{" "}
+                Have an account?
                 <Link
                   href="/register"
                   className="text-primary-300 underline font-semibold font-jakarta"
                 >
-                  Sign Up
+                  Sign In
                 </Link>
               </div>
               <Link
@@ -138,8 +142,8 @@ export default function index() {
             <Image src="/images/bizzy-whole-body.svg" layout="fill" alt="" />
           </div>
           <p className="font-aeonik text-md leading-md font-medium max-w-[663px] text-center mt-9 text-[#7270FF]">
-            Morem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis.
+            Bizzy is ready to help you create a complete end to end business and
+            marketing campaign in just a few minutes!
           </p>
         </div>
       </div>

@@ -5,7 +5,7 @@ const MeetBizzy: FC = () => {
   return (
     <div className="mt-10">
       <h2 className="text-h5 md:text-h4 lg:text-h3 leading-h5 md:leading-h4 lg:leading-h3 font-bold font-montserrat text-center text-primary-100">
-        Meet <span className="gradient-text-2">Bizzy</span> your helpfull AI{" "}
+        Meet <span className="gradient-text-2">Bizzy</span> your helpful AI{" "}
         <br />
         Companion
       </h2>
@@ -20,10 +20,10 @@ const MeetBizzy: FC = () => {
         offerings, and ideal client avatars and most importantly in your voice!
       </p>
       <div
-        className="grid place-content-center my-10 w-full lg:w-[1080px] relative mx-auto"
-        style={{ aspectRatio: 1080 / 680 }}
+        className="grid place-content-center my-10 w-full lg:w-[549px] relative mx-auto"
+        style={{ aspectRatio: 549 / 747 }}
       >
-        <Image src="/images/meet-bizzy-bg.svg" layout="fill" alt="" />
+        <Image src="/images/bizzy-hello.webp" layout="fill" alt="" />
       </div>
     </div>
   );

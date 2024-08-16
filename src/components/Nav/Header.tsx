@@ -57,13 +57,14 @@ const links = [
   //   alt: "",
   // },
   {
-    title: "Contact",
-    url: "/contact",
-    alt: "",
-  },
-  {
     title: "About",
     url: "/about",
+    alt: "",
+  },
+  
+  {
+    title: "Contact",
+    url: "/contact",
     alt: "",
   },
 ];
