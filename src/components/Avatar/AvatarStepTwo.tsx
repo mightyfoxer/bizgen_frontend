@@ -2,16 +2,12 @@ import { FC } from "react";
 import {
   ArrowLeft,
   CircleCheckIcon,
-  ClipboardIconTwoTone2,
-  CrawnColoredIcon2,
-  CrawnIconTwoTone,
   PasteIconFill,
 } from "@/components/SvgIcons";
-import { TagHead } from ".";
-import { ButtonGradient, ButtonGradientSecond } from "@/components/Widget";
+import { AvatarTagHead } from ".";
+import { ButtonGradient } from "@/components/Widget";
 import Image from "next/image";
 import { useModal } from "@/contexts/ModalProvider";
-import { ReactSVG } from "react-svg";
 
 interface StepProps {
   setCurrentPage: (page: number) => void;
@@ -19,8 +15,7 @@ interface StepProps {
 }
 
 
-const StepThree: FC<StepProps> = ({currentPage, setCurrentPage}) => {
-  const { openUpgradeMiniModal } = useModal();
+const AvatarStepTwo: FC<StepProps> = ({currentPage, setCurrentPage}) => {
   const setPage = () => {
     setCurrentPage(currentPage - 1);
   }
@@ -32,76 +27,22 @@ const StepThree: FC<StepProps> = ({currentPage, setCurrentPage}) => {
             <ArrowLeft />
           </button>
         </div>
-        <TagHead currentPage={currentPage}/>
+        <AvatarTagHead />
         <p className="text-xl leading-xl font-bold gradient-text-1 mt-7 font-jakarta relative inline-block">
-          Business Overview Complete!{" "}
+          Ideal Client Avatar is Complete!
           <span className="absolute -right-6 top-1">
             <CircleCheckIcon />
           </span>
         </p>
         <h2 className="text-[40px] leading-[1.5] font-bold tracking-[-0.8px] max-w-[700px] my-6 text-black font-aeonik">
           <span className="gradient-text-1">Congratulations!</span>
-          {" Your Ideal Business Overview is Ready to Meet the World!"}
+          {" Your Ideal Avatar is Ready to Meet the World!"}
         </h2>
         <p className="font-jakarta font-bold text-primary-700 max-w-[700px]">
-          We have taken the information you provided and turned it into a roadmap 
-          highlighting the key information about your business to give you a better 
-          overview, this is a key step in creating branding messaging, feel free to edit 
-          before moving forward!
+            Now that your ideal client avatar is created, feel free to proceed to the dashboard and start creating content!
         </p>
-        {/* <button className="text-xl leading-xl font-jakarta font-bold rounded-[10px] text-primary-100 py-[18px] px-[45px] border mt-6 border-primary-100">
-          Refine Business Overview Further
-        </button> */}
-        <div className="flex items-center justify-between p-6 bg-primary-600 rounded-lg mt-9 mb-6">
-          <div className="flex items-center gap-2">
-            <Image
-              src={"/images/logo@head.png"}
-              width={24}
-              height={24}
-              alt=""
-            />
-            <p className="gradient-text-1 text-2xl font-aeonik font-bold">
-              {"Create Your Perfect Avatar! It's Free"}
-            </p>
-          </div>
-          <p className="text-[#ff0000]">
-            Required Step!
-          </p>
-          <button className="relative overflow-hidden rounded-[10px] text-white text-xl leading-xl font-bold font-jakarta py-3 px-9 group">
-            <ButtonGradient />
-            <span className="relative">Create Avatar</span>
-          </button>
-        </div>
-        {/* <div className="flex items-center justify-between p-6 bg-[#FFF8F2] rounded-lg mt-9 mb-6">
-          <div className="flex items-center gap-2">
-            <CrawnColoredIcon2 className="w-6 h-6" />
-            <p className="text-primary-100 font-aeonik font-bold text-2xl">
-              {"Create Your Brandina Guide?"}
-            </p>
-          </div>
-          <button
-            className="relative overflow-hidden rounded-[10px] text-white text-xl leading-xl font-bold font-jakarta py-3 px-9 group"
-            onClick={openUpgradeMiniModal}
-          >
-            <ButtonGradientSecond isAnimation />
-            <div className="relative flex gap-2.5 items-center justify-center">
-              Create Branding Guide
-              <CrawnIconTwoTone />
-            </div>
-          </button>
-        </div> */}
       </div>
       <div className="relative bg-primary-600 px-5 border border-l border-secondary-600 h-screen overflow-hidden">
-        {/* <div className="flex items-center justify-between pt-8">
-          <button className="flex gap-2 items-center bg-[#E7EAFF] rounded-lg p-2 font-jakarta font-semibold">
-            <ClipboardIconTwoTone2 />
-            Edit
-          </button>
-          <button className="flex gap-2 items-center bg-[#E7EAFF] rounded-lg p-2 font-jakarta font-semibold">
-            <ReactSVG src="/icons/import@gradient.svg" />
-            Export
-          </button>
-        </div> */}
         <div className="min-h-[400px] border-2 border-primary-300 mt-[18px] rounded-[10px] overflow-auto relative">
           <div className="py-2 px-6 rounded-t-lg overflow-hidden absolute left-0 top-0 w-full z-10">
             <ButtonGradient />
@@ -119,7 +60,7 @@ const StepThree: FC<StepProps> = ({currentPage, setCurrentPage}) => {
           <button className="relative rounded-lg py-[18px] w-full overflow-hidden">
             <ButtonGradient />
             <span className="relative font-aeonik font-bold text-2xl text-white">
-              Generate New Business
+              Generate New Avatar
             </span>
           </button>
           <button className="relative rounded-lg py-[18px] w-full overflow-hidden ml-1">
@@ -134,7 +75,7 @@ const StepThree: FC<StepProps> = ({currentPage, setCurrentPage}) => {
   );
 };
 
-export default StepThree;
+export default AvatarStepTwo;
 
 const content = `<div class="content-box">
 <h2>

@@ -1,4 +1,3 @@
-import { useRouter } from "next/router";
 import React from "react";
 import StepOne from "./StepOne";
 import DotStepper from "./DotStepper";
@@ -8,16 +7,23 @@ import StepThree from "./StepThree";
 import { useModal } from "@/contexts/ModalProvider";
 import { UpgradeMiniModal } from "../Modal";
 import PricingModal from "@/components/Modal/PricingModal";
+import { useState } from "react";
 
 const OnboardingPage = () => {
-  const { query } = useRouter();
   const { isUpgradeMiniModal, isPricingModal } = useModal();
+  const [currentPage, setCurrentPage] = useState<number>(3);
   return (
     <>
       <main className="grid grid-cols-2 bg-white">
-        {(query.step === "3" || query.step === undefined) && <StepOne />}
-        {query.step === "2" && <StepTwo />}
-        {query.step === "1" && <StepThree />}
+        {
+          currentPage === 1 && <StepOne setCurrentPage={setCurrentPage} currentPage={currentPage}/>
+        }
+        {
+          currentPage === 2 && <StepTwo setCurrentPage={setCurrentPage} currentPage={currentPage}/>
+        }
+        {
+          currentPage === 3 && <StepThree setCurrentPage={setCurrentPage} currentPage={currentPage}/>
+        }
       </main>
 
       {isUpgradeMiniModal && <UpgradeMiniModal />}
@@ -28,7 +34,11 @@ const OnboardingPage = () => {
 
 export default OnboardingPage;
 
-export const TagHead = () => {
+interface TagHeadProps {
+  currentPage: number;
+}
+
+export const TagHead: React.FC<TagHeadProps> = ({currentPage}) => {
   return (
     <div className="flex items-center justify-between mt-9">
       <div className="flex items-center gap-2">
@@ -42,7 +52,7 @@ export const TagHead = () => {
           Bizgen
         </span>
       </div>
-      <DotStepper />
+      <DotStepper currentPage={currentPage}/>
     </div>
   );
 };

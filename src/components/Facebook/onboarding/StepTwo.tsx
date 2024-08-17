@@ -1,56 +1,63 @@
 import { FC } from "react";
-import PurpleBackground from "./PurpleBackground";
+import PurpleBackground from "../../PurpleBackground";
 import { ArrowLeft } from "@/components/SvgIcons";
-import { useRouter } from "next/router";
 import { TagHead } from ".";
 import { ButtonGradientSecond, InputBox, TextBox } from "@/components/Widget";
-import PremiumIntro from "./PremiumIntro";
+import PremiumIntro from "../../PremiumIntro";
 
-const StepTwo: FC = () => {
-  const router = useRouter();
+interface StepProps {
+  setCurrentPage: (page: number) => void;
+  currentPage: number;
+}
+
+const StepTwo: FC<StepProps> = ({currentPage, setCurrentPage}) => {
+  const setPageBefore = () => {
+    setCurrentPage(currentPage - 1);
+  }
+
+  const setPageNext = () => {
+    setCurrentPage(currentPage + 1);
+  }
   return (
     <>
       <div className="py-11 px-[64px]">
         <div className="">
-          <button className="group">
+          <button className="group" onClick={setPageBefore}>
             <ArrowLeft />
           </button>
         </div>
-        <TagHead />
+        <TagHead currentPage={currentPage} />
         <p className="text-xl leading-xl font-bold gradient-text-1 mt-7 font-jakarta">
-          Lets Create your Business Overview Together!
+          Let{"'"}s Create Your Business Overview Together!
         </p>
         <h2 className="text-[40px] leading-[1.5] font-bold tracking-[-0.8px] max-w-[635px] my-6 text-black font-aeonik">
-          {"Share Your Business's Tale and "}
-          <span className="gradient-text-1">Amp Up Your Brand!</span>
+          Step Two{": "} Share What Makes Your Business Unique!
         </h2>
         <p className="font-jakarta font-bold text-primary-700">
-          As a free trial user, you have access to generate up to 10,000 words.
-          To unlock more possibilities and extend your word limit, consider
-          upgrading to our{" "}
-          <span className="text-primary-300">Pro plan today!</span>
+          Let's discover what you think makes your business unique compared to the competition, 
+          this will help Bizzy create a better overview!
         </p>
         <div className="my-6">
           <TextBox
             label="Tell us about your products and services you offer to clients"
-            placeholder="Ex: I have a SAAS platform that works in generative AI, helping entrepreneurs connect with businesses and generate leads from creating online content"
+            placeholder="Ex: Consulting services, Ebooks, Online Learning Courses on Ai, etc..."
           />
         </div>
         <div className="my-6">
           <TextBox
-            label="Tell us about what makes your business unique: Certifications, Experiences, Skill sets"
-            placeholder="Ex: I have a SAAS platform that works in generative AI, helping entrepreneurs connect with businesses and generate leads from creating online content"
+            label="Tell us about what makes your business unique: Certifications, Experiences, Skill sets (Optional)"
+            placeholder="Ex: PHD in Psychology, Certified Hypnotherapist, etc..."
           />
         </div>
         <div className="my-6">
           <InputBox
-            label="Business Website"
-            placeholder="Enter your business name"
+            label="Business Website (Optional)"
+            placeholder="Must Include https/http, Ex: https://bizgen.io"
           />
         </div>
         <button
           className="relative py-[18px] px-[45px] rounded-[10px] text-xl leading-xl text-white font-bold font-jakarta overflow-hidden group mt-6"
-          onClick={() => router.push(`${router.pathname}?step=${3}`)}
+          onClick={setPageNext}
         >
           <ButtonGradientSecond />
           <span className="relative">Continue</span>
